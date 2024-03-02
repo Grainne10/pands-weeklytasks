@@ -7,7 +7,7 @@ inputstring=input("please enter a nine digit number: ")
 
 astring = ("XXXXX")
 
-print ("The account number is: ", astring,inputstring[5:9],)
+print ("The account number is: ", astring+inputstring[5:9],)
 
 
        
