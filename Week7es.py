@@ -1,0 +1,21 @@
+# week7ES.py
+
+# Program takes in a text file and reads it and counts the number of E's in the file
+# author Grainne Boyle
+
+# the program takes the filename from an argument on the command line
+import sys
+filename = sys.argv[0]
+
+# with statement closes resource after processing them.
+# in the statement below, open() opens the file, the 'r' represents read
+# and the f represents the file object
+
+with open(filename, 'r') as f: 
+# Read the file into a string
+    daffodils = f.read() 
+# to count the amount of times the letter 'e' appears in the file I used the count function
+    count = daffodils.count('e')
+# Print the count
+print =(count)
+
