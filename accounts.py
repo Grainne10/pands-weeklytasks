@@ -1,4 +1,4 @@
-#Week3.accounts.py  
+# Week3.accounts.py  
 # Program reads in a 10 character number and outputs the number with only the last four digits showing
 # author Grainne Boyle
 

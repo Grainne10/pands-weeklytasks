@@ -40,6 +40,7 @@ The .astring  creates a string consisting of six ‘X’ characters, which is us
 A slicing notation is used[6:10] which extracts characters from the end of the input string.
 The + operator concatenates astring with the sliced portion of inputstring.
 The result is a string that combines the ‘X’s and the last four digits of the account number.
+References:
 I used W3 schools to understand how to slice a string 
 [W3 Schools](https://www.w3schools.com/python/gloss_python_string_slice.asp)
 I did not know how to join the 'X's' and the sliced string together, I used W3 schools to understand this.
@@ -47,7 +48,22 @@ I did not know how to join the 'X's' and the sliced string together, I used W3 s
 
 
 
+8. plottask.py
 
+Task description:
+Write a program called plottask.py that displays:
+a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
+and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes.
 
+The program is creating a histogram by generating 1000 random values within a normal distribution. By using a mean of five this will be the average value, and setting the standard deviation to 2 means the data points are close to the average(mean).
+A histogram is plotted from the generated random data and shows how the numbers are distributed. 
+The program then defines a function h(x) = x³  and plots the function on the same graph as the histogram.
+Then the plotted graph is saved as a PNG file named 'plot.png'.
+Numpy and matplotlib.pyplot had to be imported to do the histogram and use the random number generator.
+I found this challenging as the plotted line did not seem to be correlated to the histogram.
+References:
+To understand how to plot over the histogram: 
+https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/
+To help with understanding the function I used Chatgpt to explain what the program was supposed to outpu
 
 
