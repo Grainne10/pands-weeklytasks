@@ -26,12 +26,12 @@ The program is taking user input, performing a simple calculation and displaying
 The user is prompted to enter the first amount using the input() function, it converts the input to a floating-point number.
 Then the user is prompted to enter the second amount  and this is also converted to a floating- point number.
 It calculates the sum of these two amounts and stores the result in the variable {answer}.
-It prints out the sum in a formatted string using an f-string, where the answer is replaced the actual sum calculated, and the sum is preceded by the Euro symbol, indicating a monetary amount. I learned how to add the Euro symbol by reading through text on the discord channel.
+It prints out the sum in a formatted string using an f-string, where the answer is replaced by the actual sum calculated, and the sum is preceded by the Euro symbol, indicating a monetary amount. I learned how to add the Euro symbol by reading through text on the discord channel.
 
 2. Accounts.py
 
 Task description:
-Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
+Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other characters replaced with Xs).
 Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 
 The program is designed to hide sensitive information by revealing only a portion of the acount number, specifically the last four digits. It uses strings , concatenation and slicing.
@@ -45,6 +45,30 @@ I used W3 schools to understand how to slice a string
 [W3 Schools](https://www.w3schools.com/python/gloss_python_string_slice.asp)
 I did not know how to join the 'X's' and the sliced string together, I used W3 schools to understand this.
 [W3 Schools](https://www.w3schools.com/python/python_strings_concatenate.asp)
+
+
+Week 4 - Collatz
+Task Description: 
+Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
+At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+Have the program end if the current value is one.
+
+The program is set up to perform the collatz sequence on a positive integer entered by the user. It prompts the user to enter a positive integer.
+The while loop is set up until the number reaches the number to end which is 1.
+Within the loop, the if statement checks if the current number is even, if it is , it divides the number 2.
+The else statement work on the premise that if it is not even, it must be odd, so it multiplies it by 3 and adds 1.
+After each calculation, it prints the updated value of the number,
+The loop continues until the current number equals 1, and then the loop ends.
+
+To understand the collatz sequence, I watched the you tube video:
+[You Tube](https://www.youtube.com/watch?v=094y1Z2wpJg&t=1s)
+I also read this article:
+[How Stuff works](https://science.howstuffworks.com/math-concepts/collatz-conjecture.htm#:~:text=The%20Collatz%20Conjecture%2C%20also%20known,lead%20to%20the%20number%20one)
+To help understand while loops:
+[W3 Schools](https://www.w3schools.com/python/python_while_loops.asp)
+To help understand if statements:
+[Real Python](https://realpython.com/python-conditional-statements/)
+
 
 
 
@@ -64,6 +88,6 @@ I found this challenging as the plotted line did not seem to be correlated to th
 References:
 To understand how to plot over the histogram: 
 https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/
-To help with understanding the function I used Chatgpt to explain what the program was supposed to outpu
+To help with understanding the function I used Chatgpt to explain what the program was supposed to output
 
 
