@@ -19,7 +19,7 @@ print("The square root of", num, "is", sqrt)
 # Using the newton method
 # 
 # squareroot= 0.5 * (x+n/x) where x is any guess which be assumed to be squareroot of N.  Researched newton method on geeksforgeeks.org
-#Write a program to guess the square root number and reiterate until which you get it within a certain tolerance
+# Write a program to guess the square root number and reiterate until which you get it within a certain tolerance
 # Also reviewed different methods on stack overflow, tried a few different methods but trying to keep it simple and show the calculation simply in program below
 
 n = float(input('what number would you like to find the square root of?  '))
