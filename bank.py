@@ -1,4 +1,5 @@
 # bank.py
+# Week 2
 # This program adds two amounts together and gives the answer in a readable format  
 # author : Grainne Boyle
 

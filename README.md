@@ -6,7 +6,7 @@ I work at [TE Connectivity] (https://www.te.com/usa-en/home.html)
 
 I am a student at the [Atlantic Technological University] (https://www.atu.ie/), Galway, studying the Higher Diploma in Science in Data Analytics on a part-time basis over 2 years.
 
-This Read Me file is for the Programming and Scripting Year 1 module . It describes the weekly tasks and explains how I solved them and what research I did . I will also reference resources that I used to come to the solution.
+This Read Me file is for the Programming and Scripting Year 1 module . It describes the weekly tasks and explains how I solved them and what research I did . I include reference resources that I used to come to the solution.
 
 I do not have previous coding experience. This first semester has been challenging while I learn completely new topics, work full-time and manage life in general.
 
@@ -70,6 +70,21 @@ To help understand if statements:
 [Real Python](https://realpython.com/python-conditional-statements/)
 
 
+Weekly Task 05
+Task Description
+Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
+You will need to search the web to find how you work out what day it is.
+
+The program  imports the datetime module and date and this gives the current date.
+It then stores today’s date in the variable today. It prints today’s date using the print function.
+Day 0 is considered Monday and Day 6 is considered Sunday.
+Using an ‘if’ statement , it checks if it is a weekday. Days 0 to 4 are weekdays so anything under 5, is considered a weekday. If it returns a value less than 5, it means it’s a weekday and prints a message to that effect.
+Using an ‘Elif” statement, it checks if it is day 5 or 6, this is considered the weekend and it prints a message indicating it is the weekend.
+
+
+[She Codes](https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python) This website shows very clearly what you need to import to run the program and print out a result)
+[Python calendar](https://docs.python.org/3/library/calendar.html) Define days of the week
+[W3 Schools](https://www.w3schools.com/python/gloss_python_elif.asp) If previous conditions do not work, use this condtion.
 
 
 8. plottask.py

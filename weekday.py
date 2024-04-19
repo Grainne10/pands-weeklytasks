@@ -1,4 +1,5 @@
-#Week5weekday.py  
+# weekday.py  
+# Week 5
 # Program works out whether the date is a week day or is a day at the weekend.
 
 # author Grainne Boyle
