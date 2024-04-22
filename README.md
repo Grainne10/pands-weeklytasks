@@ -12,8 +12,20 @@ I do not have previous coding experience. This first semester has been challengi
 
 **Contents:**
 
-**Bank.py Week 2**
+1. [Bank](**bank.py**)
+2. [Accounts](accounts.py)
+3. [Collatz](#collatz.py)
+4. [Weekday](#weekday.py)
+5. [SquareRoot](#squareroot.py)
+6. [Es](#es.py)
+7. [plottask](#plottask.py)
 
+
+
+
+**bank.py**
+
+Week 2
 Task Description:
 Write a program called bank.py 
 The program should:  Prompt the user and read in two money amounts (in cent)
@@ -27,8 +39,9 @@ Then the user is prompted to enter the second amount  and this is also converted
 It calculates the sum of these two amounts and stores the result in the variable answer.
 It prints out the sum in a formatted string using an f-string, where the answer is replaced by the actual sum calculated, and the sum is preceded by the Euro symbol, indicating a monetary amount. I learned how to add the Euro symbol by reading through text on the discord channel.
 
-**Accounts.py Week 3**
+**accounts.py**
 
+ Week 3
 Task description:
 Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other characters replaced with Xs).
 Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
@@ -48,7 +61,9 @@ I did not know how to join the 'X's' and the sliced string together, I used W3 s
 [W3 Schools](https://www.w3schools.com/python/python_strings_concatenate.asp)
 
 
-**Collatz.py Week 4**
+**collatz.py**
+
+Week 4
 Task Description: 
 Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
 At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
@@ -73,8 +88,9 @@ To help understand if statements:
 [Real Python](https://realpython.com/python-conditional-statements/)
 
 
-**weekday.py Week 5**
+**weekday.py**
 
+ Week 5
 Task Description:
 Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
 You will need to search the web to find how you work out what day it is.
@@ -91,8 +107,8 @@ References:
 [Python calendar](https://docs.python.org/3/library/calendar.html) Define days of the week
 [W3 Schools](https://www.w3schools.com/python/gloss_python_elif.asp) If previous conditions do not work, use this condtion.
 
-**squareroot.py Week 6**
-
+**squareroot.py**
+Week 6
 Task description:
 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 You should create a function called <tt>sqrt</tt> that does this.
@@ -108,10 +124,10 @@ References:
 [You Tube](https://www.youtube.com/watch?v=FpOEx6zFf1o) Explains simply how it works
 [Real Python](https://realpython.com/python-for-loop/) Understanding iterations and for loops
 
-**Es.py Week 7**
+**es.py**
 
-Task Description:
 Weekly task 7
+Task Description:
 Write a program that reads in a text file and outputs the number of e's it contains. Document any assumptions you are making.
 The program should take the filename from an argument on the command line. 
 Solution:
@@ -120,8 +136,9 @@ The program imports the sys module. Command line arguments are passed during the
 [GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-module/) Explains what the system module can do.
 
 
-**plottask.py Week 8**
+**plottask.py**
 
+ Week 8
 Task description:
 Write a program called plottask.py that displays:
 a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
