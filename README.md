@@ -12,18 +12,18 @@ I do not have previous coding experience. This first semester has been challengi
 
 **Contents:**
 
-1. [Bank](**bank.py**)
-2. [Accounts](accounts.py)
-3. [Collatz](#collatz.py)
-4. [Weekday](#weekday.py)
-5. [SquareRoot](#squareroot.py)
-6. [Es](#es.py)
-7. [plottask](#plottask.py)
+1. [Bank](bank)
+2. [Accounts](accounts)
+3. [Collatz](collatz)
+4. [Weekday](weekday)
+5. [SquareRoot](squareroot)
+6. [Es](es)
+7. [plottask](#plottask)
 
 
 
 
-**bank.py**
+**bank**
 
 Week 2
 Task Description:
