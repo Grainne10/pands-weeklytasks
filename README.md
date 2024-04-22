@@ -98,7 +98,9 @@ Write a program that takes a positive floating-point number as input and outputs
 You should create a function called <tt>sqrt</tt> that does this.
 
 Solution:
-The program prompts the user to input the number they want to find the square root of ‘n’ and their guess for the square root ‘x’ . Both inputs are converted to floating-point numbers using the float function. It prints the initial approximation of the square root. It uses a for loop function and iterates by improving and refining each time until satisfied with the approximation of the square root. It prints the final approximation and has rounded this for simplification. I completed the task but realised I had done a program and not a function, I will try to correct this before submission.
+Solution:
+The program prompts the user to input the number they want to find the square root of ‘n’ and their guess for the square root ‘x’ . The square root function is defined which takes two arguments 'n' the number to find the square root of and 'x' the guess of the square root.
+The newton formula for finding the square root is applied and iterated by improving and refining each time until satisfied with the approximation of the square root. It prints the final approximation and has rounded this for simplification. I completed the task but realised I had done a program and not a function and changed it in the final week.
 
 
 References:
@@ -113,10 +115,9 @@ Weekly task 7
 Write a program that reads in a text file and outputs the number of e's it contains. Document any assumptions you are making.
 The program should take the filename from an argument on the command line. 
 Solution:
-The program imports the sys module. Command line arguments are passed during the calling of the program. The system module provides a variable called sys.argv that has a list of command-line arguments. The program assigns the command line argument to the variable daffodils, this file exist in the same folder as the program. It opens the file specified in the command-line argument and reads the content . Using the count function, it counts the occurrence of the letter ‘e’ in the file and prints this out. This task was challenging because it was not explained at the time and I had to do alot of researh to understand it. I think it is something that needs more explaining.
-References:
-[GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-module/) Explains what the system module can do.
+The program imports the sys module. Command line arguments are passed during the calling of the program. The sys.argv[1] variable stores these arguments as a list, with sys.argv[0] representing the script name itself. In this program, the command-line argument is assigned to the variable text_path, I set up a folder daffodils.txt to test this, this file exists in the same folder as the program. It opens the file specified in the command-line argument and reads the content . Using the count function, it counts the occurrence of the letter ‘e’ in the file and prints this out. This task was challenging because it was not explained at the time and I had to do alot of researh to understand it. I managed to run it but it was very difficult I think it is something that needs more explaining. You can test it by saving a file to the folder or using the daffodil file and typing into terminal "python es.py daffodils.txt"
 
+[GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-module/) Explains what the system module can do.
 
 
 **plottask.py Week 8**

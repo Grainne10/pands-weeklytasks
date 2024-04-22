@@ -20,18 +20,25 @@ print("The square root of", num, "is", sqrt)
 # 
 # squareroot= 0.5 * (x+n/x) where x is any guess which be assumed to be squareroot of N.  Researched newton method on geeksforgeeks.org
 # Write a program to guess the square root number and reiterate until which you get it within a certain tolerance
-# Also reviewed different methods on stack overflow, tried a few different methods but trying to keep it simple and show the calculation simply in program below
+# Also reviewed different methods on stack overflow, tried a few different methods and change in the final week as I had not set up the function
+
 
 n = float(input('what number would you like to find the square root of?  '))
 x = float(input('Estimate your number  '))
-root =(0.5*(x+(n/x)))
-print (root)
-# the i in range iterates between 0 and 5
-for i in range(0,5):
-    root = (0.5*(root+(n/root)))
-  
-    print (round( root,5))
-    
 
-print ('The square root of your number is ', (round(root,5)))
+def sqrt(n,x):
+
+
+    root =(0.5*(x+(n/x)))
+    print (root)
+    # the i in range iterates between 0 and 5
+    for i in range(0,5):
+        root = (0.5*(root+(n/root)))
+  
+        print (round( root,5)) 
+
+    return((round(root,5)))
+
+print('The square root of your number is', sqrt(n,x))
+
        
