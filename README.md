@@ -125,7 +125,7 @@ References:
 [You Tube](https://www.youtube.com/watch?v=FpOEx6zFf1o) Explains simply how it works
 [Real Python](https://realpython.com/python-for-loop/) Understanding iterations and for loops
 
-## Es.py
+## Es
 
 Week 7
 Task Description:
