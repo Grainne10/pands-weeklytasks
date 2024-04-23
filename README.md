@@ -10,20 +10,20 @@ This Read Me file is for the Programming and Scripting Year 1 module . It descri
 
 I do not have previous coding experience. This first semester has been challenging while I learn completely new topics, work full-time and manage life in general.
 
-**Contents:**
+**Contents:** - FIXTHESELINKS
 
-1. [Bank](bank)
-2. [Accounts](accounts)
-3. [Collatz](collatz)
-4. [Weekday](weekday)
-5. [SquareRoot](squareroot)
-6. [Es](es)
-7. [plottask](#plottask)
-
-
+1. [Bank](#Bank)
+2. [Accounts](#Accounts)
+3. [Collatz](#Collatz)
+4. [Weekday](#Weekday)
+5. [SquareRoot](#Squareroot)
+6. [Es](#Es)
+7. [plottask](#Plottask)
 
 
-**bank**
+
+
+## Bank
 
 Week 2
 Task Description:
@@ -39,7 +39,7 @@ Then the user is prompted to enter the second amount  and this is also converted
 It calculates the sum of these two amounts and stores the result in the variable answer.
 It prints out the sum in a formatted string using an f-string, where the answer is replaced by the actual sum calculated, and the sum is preceded by the Euro symbol, indicating a monetary amount. I learned how to add the Euro symbol by reading through text on the discord channel.
 
-**accounts.py**
+## Accounts
 
  Week 3
 Task description:
@@ -61,7 +61,7 @@ I did not know how to join the 'X's' and the sliced string together, I used W3 s
 [W3 Schools](https://www.w3schools.com/python/python_strings_concatenate.asp)
 
 
-**collatz.py**
+## Collatz
 
 Week 4
 Task Description: 
@@ -88,9 +88,9 @@ To help understand if statements:
 [Real Python](https://realpython.com/python-conditional-statements/)
 
 
-**weekday.py**
+## Weekday
 
- Week 5
+Week 5
 Task Description:
 Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
 You will need to search the web to find how you work out what day it is.
@@ -107,7 +107,8 @@ References:
 [Python calendar](https://docs.python.org/3/library/calendar.html) Define days of the week
 [W3 Schools](https://www.w3schools.com/python/gloss_python_elif.asp) If previous conditions do not work, use this condtion.
 
-**squareroot.py**
+## Squareroot
+
 Week 6
 Task description:
 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
@@ -124,9 +125,9 @@ References:
 [You Tube](https://www.youtube.com/watch?v=FpOEx6zFf1o) Explains simply how it works
 [Real Python](https://realpython.com/python-for-loop/) Understanding iterations and for loops
 
-**es.py**
+## Es.py
 
-Weekly task 7
+Week 7
 Task Description:
 Write a program that reads in a text file and outputs the number of e's it contains. Document any assumptions you are making.
 The program should take the filename from an argument on the command line. 
@@ -135,15 +136,15 @@ The program imports the sys module. Command line arguments are passed during the
 
 [GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-module/) Explains what the system module can do.
 
+## Plottask
 
-**plottask.py**
-
- Week 8
+Week 8
 Task description:
 Write a program called plottask.py that displays:
 a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
 and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes.
 
+Solution:
 The program is creating a histogram by generating 1000 random values within a normal distribution. By using a mean of five this will be the average value, and setting the standard deviation to 2 means the data points are close to the average(mean).
 A histogram is plotted from the generated random data and shows how the numbers are distributed. 
 The program then defines a function h(x) = x³  and plots the function on the same graph as the histogram.
@@ -152,7 +153,7 @@ Numpy and matplotlib.pyplot had to be imported to do the histogram and use the r
 I found this challenging as the plotted line did not seem to be correlated to the histogram, also the question is difficult to understand that is needed.
 References:
 To understand how to plot over the histogram: 
-https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/
+[Geeksforgeeks](https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/)
 To help with understanding the function I used Chatgpt to explain what the program was supposed to output
 
 
