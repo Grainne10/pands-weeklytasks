@@ -83,7 +83,7 @@ References:
 To understand the collatz sequence, I watched the you tube video:  
 [You Tube](https://www.youtube.com/watch?v=094y1Z2wpJg&t=1s)  
 I also read this article:  
-[How Stuff works](https://science.howstuffworks.com/math-concepts/collatz-conjecture) 
+[How Stuff works](https://science.howstuffworks.com/math-concepts/collatz-conjecture.htm?srch_tag=cfebmfcizhfa6vogg2hru36nd2qk24jh) 
 To help understand while loops:  
 [W3 Schools](https://www.w3schools.com/python/python_while_loops.asp)  
 To help understand if statements:  
