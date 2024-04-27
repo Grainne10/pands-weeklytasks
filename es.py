@@ -6,7 +6,7 @@
 
 # the program takes the filename from an argument on the command line
 import sys
-
+# I saved ths daffodils text file to test the program.
 #daffodils = "daffodils.txt";
 text_path = sys.argv[1]
 # with statement closes resource after processing them.

@@ -10,7 +10,7 @@ This Read Me file is for the Programming and Scripting Year 1 module . It descri
 
 I do not have previous coding experience. This first semester has been challenging while I learn completely new topics, work full-time and manage life in general.
 
-**Contents:** - FIXTHESELINKS
+**Contents:** 
 
 1. [Bank](#Bank)
 2. [Accounts](#Accounts)
@@ -32,9 +32,9 @@ Write a program called bank.py. The program should:  Prompt the user and read in
 Add the two amounts. Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount. 
 
 Solution:  
-The program is taking user input, performing a simple calculation and displaying the result in a readable format.  
+The program is taking user input, performing a calculation and displaying the result in a readable format.  
 The user is prompted to enter the first amount using the input() function, it converts the input to a floating-point number.  
-Then the user is prompted to enter the second amount  and this is also converted to a floating- point number.  
+Then the user is prompted to enter the second amount and this is also converted to a floating- point number.  
 It calculates the sum of these two amounts and stores the result in the variable answer.  
 It prints out the sum in a formatted string using an f-string, where the answer is replaced by the actual sum calculated, and the sum is preceded by the Euro symbol, indicating a monetary amount.  
 I learned how to add the Euro symbol by reading through text on the discord channel.
@@ -67,8 +67,7 @@ I did not know how to join the 'X's' and the sliced string together, I used W3 s
 Week 4 
 
 Task Description:  
-Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.  
-At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.  
+Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.  
 Have the program end if the current value is one.  
 
 Solution:  
@@ -166,3 +165,7 @@ To understand how to plot over the histogram:
 To help with understanding the function I used Chatgpt to explain what the program was supposed to output  
 
 
+## Requirements :
+VS Code
+Python
+Anaconda
